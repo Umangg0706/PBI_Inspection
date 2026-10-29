@@ -12,8 +12,3 @@ Everything runs locally; nothing is uploaded.
 ## Run
     python pbix_inspector.py                  # opens the drag-and-drop page
     python pbix_inspector.py MyReport.pbix    # writes MyReport_inspection.xlsx
-
-## Notes
-- Requires Python 3.9+.
-- For complete "Is Hidden" and column folder info, export from Power BI Desktop via
-  File > Export > Power BI template (.pbit) and drop the .pbit instead.
